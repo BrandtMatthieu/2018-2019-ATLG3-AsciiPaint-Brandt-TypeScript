@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "out",
+        "rootDir": "src",
+        "module": "commonjs",
+        "target": "es2017",
+        "lib": ["es2017", "dom"],
+        "preserveConstEnums": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
